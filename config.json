@@ -1,0 +1,31 @@
+{
+	"illegal_characters_to_replace": {
+		"'": "`",
+		"\n": " ",
+		"\r": ""
+	},
+	"json_keys_to_parse": [
+		"source",
+		"author",
+		"title",
+		"description",
+		"url",
+		"urlToImage",
+		"publishedAt",
+		"content"
+	],
+	"table_name": "NEWS_ARTICLE",
+	"sql_columns": [
+		"ID",
+		"SOURCE",
+		"AUTHOR",
+		"TITLE",
+		"DESCRIPTION",
+		"URL",
+		"URL_TO_IMAGE",
+		"PUBLISHED_AT",
+		"CONTENT"
+	],
+	"sql_id_start": 1
+
+}
